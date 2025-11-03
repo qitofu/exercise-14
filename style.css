@@ -13,7 +13,7 @@ main {
   margin: 60px;
 }
 
-.grid {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
