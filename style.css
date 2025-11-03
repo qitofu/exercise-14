@@ -4,15 +4,17 @@
 }
 
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: Lato, sans-serif;
   color: black;
-  font-size: 14px;
+  font-size: 16px;
 }
-
+main {
+  
+}
 body {
   min-width: 500px;
   margin: auto;
-  background-color: #f3f7f8;
+  background-color: #F0F0F0;
 }
 
 header, footer{
@@ -20,16 +22,15 @@ header, footer{
   min-width: 500px;
   height: 50px;
   padding: 15px 0 30px 0;
-  background-color: #025159;
-  color: #FFFFFF;
+  background-color: #D14A41;
+  color: #F0F0F0;
 }
 
 .navLogo {
-  font-size: 2.9rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2em;
   padding: 10px;
-  font-family: trilby, serif;
-  font-weight: 900;
   font-style: normal;
 }
 
@@ -42,6 +43,23 @@ img {
   height: auto;
 }
 
-.bear {
+.snack {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+ h2 { 
+   font-size: 22px;
+   font-transform: uppercase;
+   font-weight: 400;
+   line-height: 1.2em;
+   padding: 12px;
+   color: #59416B;
+ }
+
+.ranking {
+
+}
+
+.grid {
+  display: grid;
 }
