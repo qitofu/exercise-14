@@ -62,4 +62,9 @@ img {
 
 .grid {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
+  grid-auto-rows: 350px;
 }
