@@ -9,8 +9,19 @@ html {
   font-size: 16px;
 }
 main {
-  
+  justify-content: center;
+  margin: 60px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
+  grid-auto-rows: 350px;
+}
+
 body {
   min-width: 500px;
   margin: auto;
@@ -45,26 +56,33 @@ img {
 
 .snack {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  background-color: #FCEBE9;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  overflow: hidden;
 }
 
  h2 { 
    font-size: 22px;
    font-transform: uppercase;
-   font-weight: 400;
+   font-weight: 500;
    line-height: 1.2em;
    padding: 12px;
    color: #59416B;
  }
 
 .ranking {
-
+font-size: 18px;
+font-weight: 300px;
+padding: 10px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  justify-content: center;
-  padding: 2rem;
-  grid-auto-rows: 350px;
-}
+ .info {
+ border-top: 1px solid #ddd;
+  padding-top: 10px;
+  line-height: 1.3;
+ }
+
