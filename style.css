@@ -11,17 +11,16 @@ html {
 }
 main {
   justify-content: center;
-  margin: 60px;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  margin: 0 60px;
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   justify-content: center;
   padding: 2rem;
   grid-auto-rows: 350px;
 }
+
+
 
 body {
   min-width: 500px;
@@ -64,11 +63,12 @@ img {
   border: none;
   padding: 10px;
   overflow: hidden;
+   height: 1000px;
 }
 
  h2 { 
    font-size: 22px;
-   font-transform: uppercase;
+   text-transform: uppercase;
    font-weight: 500;
    line-height: 1.2em;
    padding: 12px;
@@ -79,6 +79,7 @@ img {
 font-size: 18px;
 font-weight: 300px;
 padding: 10px;
+ width: 500px;
 }
 
  .info {
