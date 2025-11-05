@@ -10,14 +10,13 @@ html {
   line-height: 1.5em;
 }
 main {
-  justify-content: center;
-  margin: 0 60px;
+  margin: 0 400px;
    display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   justify-content: center;
   padding: 2rem;
-  grid-auto-rows: 350px;
+  grid-auto-rows: auto;
 }
 
 
@@ -63,7 +62,7 @@ img {
   border: none;
   padding: 10px;
   overflow: hidden;
-   height: 1000px;
+
 }
 
  h2 { 
